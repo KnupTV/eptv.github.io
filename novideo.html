@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<style>
+			body {
+				background: radial-gradient(dimgray, black);
+				background: -webkit-radial-gradient(dimgray, black);
+			}
+
+			span {
+				font-family: Tahoma;
+				font-size: 97px;
+				position: absolute;
+				top: 60%;
+				left: 35%;
+				color: white;
+				text-shadow: 2px 2px black;
+
+				-webkit-animation: rotate 1s linear infinite alternate;
+			}
+
+			@-webkit-keyframes rotate {
+				0% {
+					-webkit-transform: scale(0.5);
+				}
+
+				100% {
+					-webkit-transform: scale(1);
+				}
+			}
+
+			img {
+				position: absolute;
+				top: 30%;
+				left: 37%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<img src="logo1.png" />
+		<span>SEM SINAL</span>
+	</body>
+</html>
